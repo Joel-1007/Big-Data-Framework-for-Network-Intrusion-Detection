@@ -1,0 +1,8 @@
+pyspark==3.4.1
+numpy>=1.20.0
+pandas>=1.3.0
+matplotlib>=3.4.0
+seaborn>=0.11.0
+cryptography>=3.4.7
+graphframes==0.6  # Installed via spark-submit --packages, listed here for tracking
+scikit-learn>=1.0.0 # for comparative baseline scripts if present

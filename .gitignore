@@ -1,0 +1,65 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Spark logs and checkpoints
+spark-warehouse/
+metastore_db/
+derby.log
+checkpoint/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project specific data files (prevent committing large datasets)
+*.csv
+*.parquet
+*.json
+*.log
+
+# Ignore OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Outputs/plots (optional depending on if user wants them committed, usually ignore raw results but keep paper formats)
+# We will keep .png since they are for the paper, but ignore raw data.
+# generalization_plot.png
